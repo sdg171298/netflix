@@ -1,0 +1,71 @@
+input[type=text]{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			color: red;
+			
+			width: 20%;
+			background-color: black;
+			text-decoration-style: red;
+			box-sizing: border-box;
+			border:1px solid red;
+		}
+button{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			width: 10%;
+			text-decoration-color: red;
+			color: red;
+			background-color: black;
+			box-sizing: border-box;
+			border:2px solid red;
+			display: inline-block;
+			transition-duration: 0.5s;
+		}
+
+#mytab{
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			border-collapse: collapse;
+			width: auto;
+			/*background-color:black;
+			text-decoration-color: red*/
+
+		}
+		#mytab th,#mytab td{
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			border:1px solid brown;
+			padding: 8px;
+		}
+		/*#mytab tr:nth-child(even)
+		{
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			background-color: red;
+		}*/
+		#mytab th{
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			padding-top: 12px;
+			padding-bottom: 15px;
+			text-align: center;
+			background-color: black;
+			color: red;
+		}
+
+
+.div1{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border:5px outset red;
+	background-color: black;
+	color: white;
+	text-align: center;
+	}
+
+.div2 {
+	padding-left: 7px;
+	padding-top: 7px;
+  width: 150px;
+  height: 150px;
+  background: red/*<img src="C:\Users\admin\Downloads/Dark.jpg">*/;
+  transition: width 1s, height 1s, transform 1s;
+}
+.div2:hover {
+  width: 170px;
+  height: 170px;
+  /*transform: rotate(360deg);*/
+}
